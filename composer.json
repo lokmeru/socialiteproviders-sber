@@ -1,7 +1,13 @@
 {
     "name": "socialiteproviders/sber",
     "description": "Sber ID OAuth2 Provider for Laravel Socialite",
-    "keywords": ["laravel", "oauth", "provider", "socialite", "sber"],
+    "keywords": [
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite",
+        "sber"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -17,13 +23,6 @@
     "autoload": {
         "psr-4": {
             "SocialiteProviders\\Sber\\": ""
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SocialiteProviders\\Manager\\ServiceProvider"
-            ]
         }
     },
     "support": {
