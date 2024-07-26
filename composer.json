@@ -15,6 +15,12 @@
             "email": "admin@lokme.ru"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lokmeru/socialiteproviders-sber"
+        }
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
