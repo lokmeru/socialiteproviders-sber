@@ -19,19 +19,6 @@
             "SocialiteProviders\\Sber\\": ""
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SocialiteProviders\\Manager\\ServiceProvider"
-            ]
-        }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/lokmeru/socialiteproviders-sber"
-        }
-    ],
     "support": {
         "issues": "https://github.com/lokmeru/socialiteproviders-sber/issues",
         "source": "https://github.com/lokmeru/socialiteproviders-sber",
