@@ -1,0 +1,34 @@
+{
+    "name": "socialiteproviders/sber",
+    "description": "Sber ID OAuth2 Provider for Laravel Socialite",
+    "keywords": ["laravel", "oauth", "provider", "socialite", "sber"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Sizikov",
+            "email": "admin@lokme.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Sber\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SocialiteProviders\\Manager\\ServiceProvider"
+            ]
+        }
+    },
+    "support": {
+        "issues": "https://github.com/lokmeru/socialiteproviders-sber/issues",
+        "source": "https://github.com/lokmeru/socialiteproviders-sber",
+        "docs": "https://github.com/lokmeru/socialiteproviders-sber"
+    }
+}
