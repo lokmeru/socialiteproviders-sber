@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\Sber\\": "src/"
+            "SocialiteProviders\\Sber\\": ""
         }
     },
     "extra": {
