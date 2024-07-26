@@ -1,12 +1,7 @@
 {
-    "name": "metafox/socialite",
-    "description": "Social Connect",
-    "keywords": [
-        "laravel",
-        "oauth",
-        "provider",
-        "socialite"
-    ],
+    "name": "socialiteproviders/sber",
+    "description": "Sber ID OAuth2 Provider for Laravel Socialite",
+    "keywords": ["laravel", "oauth", "provider", "socialite", "sber"],
     "license": "MIT",
     "authors": [
         {
@@ -16,12 +11,19 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "socialiteproviders/manager": "~4.0",
-        "socialiteproviders/sber": "dev-master"
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
     },
     "autoload": {
         "psr-4": {
-            "MetaFox\\Socialite\\": "src/"
+            "SocialiteProviders\\Sber\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SocialiteProviders\\Manager\\ServiceProvider"
+            ]
         }
     },
     "repositories": [
